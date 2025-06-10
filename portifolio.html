@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="icon" type="imagem/x-con" href="imagens/logo.png">
+    <title>DevClub | Portifólio</title>
+</head>
+<body>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+              <a href="#nicio" class="menu-link">Início</a>  
+             <li>
+              <a href="#projetos" class="menu-link">Projeto</a>  
+            </li>
+
+             <li>
+              <a href="#habilidade" class="menu-link">Habilidades</a>  
+            </li>
+             <li>
+              <a href="#sobre" class="menu-link">Sobre</a>  
+            </li>
+            <li>
+            <a href="#galerias" class="menu-link">Galeria</a>  
+            </li>
+            <li>
+              <a href="#contatos" class="menu-link">Contato</a>  
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+            <img src="./imagens/maissa.png" alt="Foto de Maissa Helena" class="foto-perfil">
+            <h1>Maíssa Helena</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedora Front-End</p>
+    </main>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo"> Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+            <img src="./imagens/projeto01.jpg" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Projeto de Geografia</h3>
+                <p class="paragrafo-projetos">O GeoRaiz é um mapa interativo desenvolvido para auxiliar no entendimento da organização dos municípios, instituições e suas hierarquias.</p>
+                </div>
+                </div>
+            <div class="projetos-card">
+            <img src="./imagens/projeto02.png" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">TCC</h3>
+                <p class="paragrafo-projetos">O Safe Zone é uma plataforma de monitoramento de riscos ambientais que oferece soluções para prevenção de desastres, garantindo mais segurança para a população.</p>
+            </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./imagens/projeto.jpg" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Mobile de Matemática</h3>
+                <p class="paragrafo-projetos">Este é um aplicativo mobile voltado para o ensino de Trigonometria, uma área fundamental da matemática.Possuindo joguinhos interativos para o aprendizado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="habilidade" class="habilidade">
+        <h1>Habilidades</h1>
+        <p>HTML (HyperText Markup Language) é uma linguagem de marcação que estrutura o conteúdo das páginas da web, definindo como os elementos (como texto, imagens, links, etc.) são organizados e apresentados. É como a espinha dorsal de um site, fornecendo a base para que outros elementos (como CSS e JavaScript) possam adicionar estilo e interatividade. </p>
+        <p>CSS  (Cascading Style Sheets) é uma linguagem de estilo utilizada para definir a apresentação visual de documentos HTML, ou seja, como o conteúdo de uma página web será exibido. É responsável por determinar a aparência e o layout de um site, como cores, fontes, espaçamentos e posicionamento dos elementos. </p>
+        <p>JavaScript  é uma linguagem de programação interpretada, de alto nível, amplamente usada para adicionar interatividade e dinamismo a páginas web. É a linguagem padrão para tornar as páginas da web mais do que apenas estáticas, permitindo que elas respondam a ações do usuário, exibam conteúdo dinâmico e interajam com o usuário. </p>
+        <p>Design Responsivo  é uma abordagem de design de sites que permite que o conteúdo se adapte dinamicamente a diferentes tamanhos de tela, proporcionando uma experiência de usuário consistente e otimizada em qualquer dispositivo, seja ele um computador desktop, tablet ou smartphone. </p>
+    </section>
+     <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+        <div>
+            <p class="sobre-paragrafo">
+                Meu nome é Maíssa Helena Ribeiro, tenho 16 anos e moro em Tambaú-SP. Atualmente, sou aluna do curso SENAI e tenho grande interesse na área de Front-End, onde me sinto mais à vontade para explorar minha criatividade. Sou uma pessoa compreensiva, reativa e com um perfil socioemocional muito positivo, o que me ajuda bastante a trabalhar bem em equipe. Pretendo cursar Direito no futuro, pois gosto de entender e defender o que é justo. Sou muito emotiva, adoro estar com minha família e amigos, e tenho duas cachorrinhas que amo: a Pink e a Jade. Também sou irmã mais velha de duas meninas, papel que levo com muito carinho e responsabilidade.
+            </p>
+        </div>
+        </div>
+    </section>
+    <style>
+  #galerias {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--escuro);
+  color: var(--claro);
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: var(--secundaria);
+  position: relative;
+}
+.heading::after {
+  content: '';
+  width: 70px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primaria), var(--secundaria));
+  display: block;
+  margin: 10px auto 0 auto;
+  border-radius: 4px;
+}
+.subheading {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #a0aec0;
+}
+.nospace {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nospace li {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  cursor: pointer;
+}
+
+.nospace li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+}
+
+.nospace li img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.nospace li:hover img {
+  transform: scale(1.1);
+}
+@media (max-width: 992px) {
+  .nospace li {
+    width: 33.33%;
+  }
+}
+@media (max-width: 768px) {
+  .nospace li {
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .nospace li {
+    width: 100%;
+  }
+}
+</style>
+<div id="galerias">
+  <h2 class="heading">Galeria de Imagens</h2>
+  <p class="subheading">Confira momentos importantes registrados em fotos</p>
+  <figure>
+    <ul class="nospace clear">
+        <li><img src="./imagens/kk.png" alt="Carna"></li>
+      <li><img src="./imagens/pink.png" alt="Maia"></li>
+      <li><img src="./imagens/maissa (2).png" alt="Maissa"></li>
+      <li><img src="./imagens/ravi.png" alt="Ravi"></li>
+      <li><img src="./imagens/so.png" alt="So"></li>
+      <li><img src="./imagens/sesi.png" alt="Sesi"></li>
+      <li><img src="./imagens/amigos.png" alt="Amigos"></li>
+      <li><img src="./imagens/ray.jpeg" alt="Maissa"></li>
+      <li><img src="./imagens/anaa.png" alt="Branco"></li>
+      <li><img src="./imagens/maira.jpeg" alt="Oi"></li>
+      <li><img src="./imagens/irma.png" alt="Irma"></li>
+    <li><img src="./imagens/jade.png" alt="Irma"></li>
+    </ul>
+  </figure> 
+</div>
+    <section id="contatos" class="contatos">
+        <h2 class="contaos-titulo">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+            <input placeholder="Nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+            <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+        </div>
+        <button type="submit" class="botao-form">Enviar Email</button>
+        </form>
+    </section>
+    <footer>
+    <p>&copy; 2025 Maíssa Helena. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
